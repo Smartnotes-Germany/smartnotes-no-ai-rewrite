@@ -10,7 +10,8 @@
     "build": "vp build",
     "preview": "vp preview",
     "test": "vp test run",
-    "prepare": "vp config"
+    "prepare": "vp config",
+    "format": "vp fmt"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
