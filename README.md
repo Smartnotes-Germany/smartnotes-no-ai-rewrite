@@ -185,4 +185,3 @@ For TanStack Start specific documentation, visit [TanStack Start](https://tansta
 
 - Setup Linting
 - Adding CI (formatting, linting, typechecking)
-- reset.d.ts
