@@ -1,5 +1,15 @@
 import * as z from "zod";
 
+const convexUrlSchema = z.url().refine(
+  (value) => {
+    return new URL(value).hostname.endsWith(".convex.cloud"); // Cannot end with a trailing "/". Must end with .convex.cloud
+  },
+  {
+    message:
+      "Must point to your Convex deployment URL on convex.cloud, not the convex.site URL. Also cannot end with a trailing '/'.",
+  },
+);
+
 /**
  * Only a separate file from from src/env.ts because the Vite Config doesn't import envs (https://vite.dev/config/#using-environment-variables-in-config) so we need this as a base for then later to give it the runtimeEnvs based on where it's used.
  * If the content of src/env.ts would get imported in the Vite Config the envs with the wrong `runtimeEnv` would get checked there.
@@ -20,7 +30,7 @@ export const envConfigWithoutRuntimeEnv = {
   clientPrefix: "VITE_",
 
   client: {
-    VITE_CONVEX_URL: z.url(),
+    VITE_CONVEX_URL: convexUrlSchema,
   },
 
   /**
