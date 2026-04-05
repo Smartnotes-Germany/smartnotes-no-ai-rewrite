@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "imports": {
-    "#/*": "./src/*"
+    "#convex/*": "./convex/*"
   },
   "scripts": {
     "dev": "npm-run-all --parallel dev:vite dev:convex",
@@ -13,7 +13,6 @@
     "lint": "vp lint",
     "preview": "vp preview",
     "test": "vp test run",
-    "prepare": "vp config",
     "format": "vp fmt"
   },
   "dependencies": {
@@ -49,7 +48,6 @@
     "typescript": "^5.7.2",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
     "vite-plus": "latest",
-    "vite-tsconfig-paths": "^6.1.1",
     "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
   },
   "engines": {

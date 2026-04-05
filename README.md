@@ -2,11 +2,13 @@ Welcome to your new TanStack Start app!
 
 This is a complete rewrite of https://github.com/Smartnotes-Germany/smartnotes-mvp without using AI.
 
-Times I used AI for this project: 1
+Times I used AI for this project (session/chats): 2 
 
 Description of the things I used AI for:
 
 - Asked it a very specific question about a problem with module resolution in vite.config.ts (was able to help me)
+- Why does the tsConfigSetup not work? Error: Missing "#convex/_generated/api" specifier in "smartnotes-no-ai-rewrite" package
+is the error I get when running pnpm dev [plus the follow-up questions]
 
 # Getting Started
 
@@ -198,4 +200,3 @@ For TanStack Start specific documentation, visit [TanStack Start](https://tansta
 - T3 Env + Vite Setup genau dokumentieren
 - Setup Fallow and Knip
 - Improve Vite+ documentation
-- Error: Missing "#convex/\_generated/api" specifier in "smartnotes-no-ai-rewrite" package [✅ Fixed by adding the plugin again] (still need to open an issue in the Vite repo)
