@@ -5,6 +5,7 @@ This is a complete rewrite of https://github.com/Smartnotes-Germany/smartnotes-m
 Times I used AI for this project: 1
 
 Description of the things I used AI for:
+
 - Asked it a very specific question about a problem with module resolution in vite.config.ts (was able to help me)
 
 # Getting Started
@@ -197,4 +198,4 @@ For TanStack Start specific documentation, visit [TanStack Start](https://tansta
 - T3 Env + Vite Setup genau dokumentieren
 - Setup Fallow and Knip
 - Improve Vite+ documentation
-- Error: Missing "#convex/_generated/api" specifier in "smartnotes-no-ai-rewrite" package [✅ Fixed by adding the plugin again] (still need to open an issue in the Vite repo)
+- Error: Missing "#convex/\_generated/api" specifier in "smartnotes-no-ai-rewrite" package [✅ Fixed by adding the plugin again] (still need to open an issue in the Vite repo)
