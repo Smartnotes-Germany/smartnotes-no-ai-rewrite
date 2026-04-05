@@ -1,8 +1,9 @@
 import * as z from "zod";
 
 /**
- * Only because the Vite Config doesn't import envs
- * Needs to be in a different file from src/env.ts because if this gets imported in the Vite Config the envs with the wrong `runtimeEnv` would get checked there.
+ * Only a separate file from from src/env.ts because the Vite Config doesn't import envs (https://vite.dev/config/#using-environment-variables-in-config) so we need this as a base for then later to give it the runtimeEnvs based on where it's used.
+ * If the content of src/env.ts would get imported in the Vite Config the envs with the wrong `runtimeEnv` would get checked there.
+ * Put all the T3 Env configuration except the `runtimeEnv` in there.
  */
 export const envConfigWithoutRuntimeEnv = {
   server: {

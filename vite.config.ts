@@ -19,7 +19,7 @@ const config = defineConfig(({ mode }) => {
   createEnv({
     ...envConfigWithoutRuntimeEnv,
     /**
-     * What object holds the environment variables at runtime. This is usually
+     * What object holds the environment variables at runtime (in this case build time). This is usually
      * `process.env` or `import.meta.env`.
      */
     runtimeEnv: {
