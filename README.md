@@ -195,7 +195,7 @@ For TanStack Start specific documentation, visit [TanStack Start](https://tansta
 # TODO
 
 - Adding CI (formatting, linting [typechecking included])
-- Deploy everything on Vercel
+- Vercel Preview Deployments
 - Wenn Oxlint oder Oxfmt nochmal Probleme machen, wechsel ich zu was Besserem (Biome, ESLint, Prettier)
 - Setup Fallow and Knip
 - Analyse why in Vercel the envs don't get checked at build time (invalid environment variables error only came in runtime)
