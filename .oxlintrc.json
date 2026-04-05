@@ -1,0 +1,27 @@
+// This file does only exist because of https://github.com/voidzero-dev/vite-plus/issues/930 / https://github.com/oxc-project/oxc/issues/21057
+// If the issue is resolved it is recommended to move the config back to vite.config.ts
+{
+  "plugins": [
+    "react",
+    "react-perf",
+    "jsx-a11y",
+    "vitest",
+    "jsdoc",
+    "eslint",
+    "typescript",
+    "unicorn",
+    "oxc"
+  ],
+  "jsPlugins": ["@convex-dev/eslint-plugin"],
+  "options": {
+    "typeAware": true,
+    "typeCheck": true
+  },
+  "rules": {
+    "@convex-dev/no-old-registered-function-syntax": "error",
+    "@convex-dev/require-args-validator": "error",
+    "@convex-dev/explicit-table-ids": "error",
+    "@convex-dev/import-wrong-runtime": "error",
+    "@convex-dev/no-collect-in-query": "error"
+  }
+}

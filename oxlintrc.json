@@ -1,8 +1,0 @@
-// This file does only exist because of https://github.com/voidzero-dev/vite-plus/issues/930 / https://github.com/oxc-project/oxc/issues/21057
-// If the issue is resolved it is recommended to move the config back to vite.config.ts
-{
-  "options": {
-    "typeAware": true,
-    "typeCheck": true
-  }
-}

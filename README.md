@@ -193,10 +193,7 @@ For TanStack Start specific documentation, visit [TanStack Start](https://tansta
 
 # TODO
 
-- Setup Linting (Convex ESLint rules)
 - Adding CI (formatting, linting [typechecking included])
 - Deploy everything on Vercel
 - Wenn Oxlint oder Oxfmt nochmal Probleme machen, wechsel ich zu was Besserem (Biome, ESLint, Prettier)
-- T3 Env + Vite Setup genau dokumentieren
 - Setup Fallow and Knip
-- Improve Vite+ documentation
