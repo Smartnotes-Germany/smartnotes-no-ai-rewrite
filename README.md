@@ -2,13 +2,13 @@ Welcome to your new TanStack Start app!
 
 This is a complete rewrite of https://github.com/Smartnotes-Germany/smartnotes-mvp without using AI.
 
-Times I used AI for this project (session/chats): 3 
+Times I used AI for this project (session/chats): 3
 
 Description of the things I used AI for (the full session are all saved in my local T3 Code):
 
 - Asked it a very specific question about a problem with module resolution in vite.config.ts (was able to help me)
-- Why does the tsConfigSetup not work? Error: Missing "#convex/_generated/api" specifier in "smartnotes-no-ai-rewrite" package
-is the error I get when running pnpm dev [plus the follow-up questions]
+- Why does the tsConfigSetup not work? Error: Missing "#convex/\_generated/api" specifier in "smartnotes-no-ai-rewrite" package
+  is the error I get when running pnpm dev [plus the follow-up questions]
 - Why do I get Convex error at runtime on the Vercel side when trying to open the page
 
 # Getting Started
@@ -197,5 +197,4 @@ For TanStack Start specific documentation, visit [TanStack Start](https://tansta
 - Adding CI (formatting, linting [typechecking included])
 - Vercel Preview Deployments
 - Wenn Oxlint oder Oxfmt nochmal Probleme machen, wechsel ich zu was Besserem (Biome, ESLint, Prettier)
-- Setup Fallow and Knip
 - Analyse why in Vercel the envs don't get checked at build time (invalid environment variables error only came in runtime)

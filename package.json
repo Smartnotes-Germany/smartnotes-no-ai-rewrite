@@ -13,7 +13,8 @@
     "lint": "vp lint",
     "preview": "vp preview",
     "test": "vp test run",
-    "format": "vp fmt"
+    "format": "vp fmt",
+    "knip": "knip"
   },
   "dependencies": {
     "@convex-dev/react-query": "^0.1.0",
@@ -25,9 +26,7 @@
     "@tanstack/react-router-devtools": "latest",
     "@tanstack/react-router-ssr-query": "latest",
     "@tanstack/react-start": "latest",
-    "@tanstack/router-plugin": "^1.132.0",
     "convex": "^1.34.1",
-    "lucide-react": "^0.545.0",
     "nitro": "3.0.260311-beta",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
@@ -38,19 +37,16 @@
     "@convex-dev/eslint-plugin": "^1.2.2",
     "@tailwindcss/typography": "^0.5.16",
     "@tanstack/devtools-vite": "latest",
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/react": "^16.3.0",
     "@total-typescript/ts-reset": "^0.6.1",
     "@types/node": "^22.10.2",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
     "@vitejs/plugin-react": "^5.1.4",
-    "jsdom": "^28.1.0",
+    "knip": "^6.3.0",
     "npm-run-all2": "^8.0.4",
     "typescript": "^5.7.2",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
-    "vite-plus": "latest",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
+    "vite-plus": "latest"
   },
   "engines": {
     "node": ">=22.12.0"
