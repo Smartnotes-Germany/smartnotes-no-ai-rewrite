@@ -1,8 +1,10 @@
-import { HeadContent, Scripts, createRootRouteWithContext } from "@tanstack/react-router";
+import {
+  HeadContent,
+  Scripts,
+  createRootRouteWithContext,
+} from "@tanstack/react-router";
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import { TanStackDevtools } from "@tanstack/react-devtools";
-import Footer from "~/components/Footer";
-import Header from "~/components/Header";
 import { QueryClient } from "@tanstack/react-query";
 
 import appCss from "../styles.css?url";
@@ -44,9 +46,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <title>Smartnotes</title>
       </head>
       <body className="font-sans wrap-anywhere antialiased selection:bg-[rgba(79,184,178,0.24)]">
-        <Header />
         {children}
-        <Footer />
         <TanStackDevtools
           config={{
             position: "bottom-right",
