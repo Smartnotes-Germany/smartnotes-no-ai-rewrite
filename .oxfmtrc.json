@@ -2,7 +2,7 @@
 // If the issue is resolved it is recommended to move the config back to vite.config.ts
 {
   "sortTailwindcss": {
-    "stylesheet": "./src/styles.css"
-    // "functions": ["clsx", "cn"], - When I add ShadCN/UI
+    "stylesheet": "./src/styles.css",
+    "functions": ["clsx", "cn", "twMerge"]
   }
 }
